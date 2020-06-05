@@ -126,6 +126,9 @@ class Rapido extends React.Component {
             answerOptions.secondChoice.numbers[index - 1].isActive = true
         })
 
+        answerOptions.firstChoice.nowChoice = 8
+        answerOptions.secondChoice.nowChoice = 1
+
         this.setState({
             answerOptions
         })
